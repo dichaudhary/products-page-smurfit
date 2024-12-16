@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/products-page-smurfit/:/",
+    "/content/products-page-smurfit/configuration:/.helix/config.json",
+    "/content/products-page-smurfit/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/products-page-smurfit/"
   ]
 }
