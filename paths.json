@@ -1,10 +1,5 @@
 {
   "mappings": [
-    "/content/products-page-smurfit/:/",
-    "/content/products-page-smurfit/configuration:/.helix/config.json",
-    "/content/products-page-smurfit/metadata:/metadata.json"
+    "/content/products-page-smurfit/:/"
   ],
-  "includes": [
-    "/content/products-page-smurfit/"
-  ]
 }
