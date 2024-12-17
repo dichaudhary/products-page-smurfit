@@ -112,6 +112,32 @@
     ]
   },
   {
+    "id": "smurfit-card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "title",
+        "value": "",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -180,39 +206,6 @@
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "hero-smurfit",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": "Various packaging products including a bicycle, flowers, and food items"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "subheading",
-        "label": "Subheading",
-        "value": "OUR PRODUCTS"
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "Meeting our customers' sustainable packaging needs with a diverse product portfolio",
         "label": "Text",
         "valueType": "string"
       }

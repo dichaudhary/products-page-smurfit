@@ -13,10 +13,15 @@
       "button",
       "title",
       "hero",
-      "hero-smurfit",
       "cards",
       "columns",
       "fragment"
+    ]
+  },
+  {
+    "id": "smurfit-cards",
+    "components": [
+      "smurfit-card"
     ]
   },
   {
