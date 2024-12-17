@@ -158,19 +158,19 @@
           }
         },
         {
-          "title": "Smurfit Hero",
-          "id": "smurfit-hero",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Smurfit Hero",
-                  "model": "smurfit-hero"
+            "title": "Hero Smurfit",
+            "id": "hero-smurfit",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Hero Smurfit",
+                    "model": "hero-smurfit"
+                  }
                 }
               }
             }
-          }
         }
       ]
     }
