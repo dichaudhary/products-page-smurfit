@@ -18,8 +18,6 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --hero-background-color: #0033a0; /* New color for hero background */
-  --hero-text-color: white; /* New color for hero text */
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -234,22 +232,6 @@ main > .section {
   margin: 40px 0;
 }
 
-.hero-smurfit-container {
-  background-color: var(--hero-background-color);
-  color: var(--hero-text-color);
-  padding: 40px 0;
-}
-
-.hero-smurfit-container h1,
-.hero-smurfit-container p {
-  color: var(--hero-text-color);
-}
-
-.hero-smurfit-container img {
-  max-width: 100%;
-  height: auto;
-}
-
 .columns-wrapper {
   display: flex;
   justify-content: center;
@@ -319,6 +301,31 @@ main > .section {
   background-color: #005bb5;
 }
 
+.hero-smurfit-container {
+  background-color: #002855;
+  color: white;
+  padding: 40px 0;
+}
+
+.hero-smurfit-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero-smurfit-wrapper img {
+  max-width: 50%;
+  height: auto;
+}
+
+.hero-smurfit-wrapper div {
+  max-width: 50%;
+}
+
 main > .section > div {
   max-width: 1200px;
   margin: auto;
@@ -341,4 +348,32 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* Custom styles for hero section */
+
+.hero-smurfit-wrapper h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.hero-smurfit-wrapper p {
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+@media (width <= 900px) {
+  .hero-smurfit-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-smurfit-wrapper img {
+    max-width: 100%;
+  }
+
+  .hero-smurfit-wrapper div {
+    max-width: 100%;
+  }
 }
