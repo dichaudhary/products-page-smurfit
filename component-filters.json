@@ -19,12 +19,6 @@
     ]
   },
   {
-    "id": "smurfit-cards",
-    "components": [
-      "smurfit-card"
-    ]
-  },
-  {
     "id": "cards",
     "components": [
       "card"
@@ -43,6 +37,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "smurfit-cards",
+    "components": [
+      "smurfit-card"
     ]
   }
 ]
