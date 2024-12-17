@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": "smurfit-hero",
+    "id": "hero-smurfit",
     "fields": [
       {
         "component": "reference",
@@ -200,14 +200,21 @@
         "valueType": "string",
         "name": "imageAlt",
         "label": "Alt",
-        "value": ""
+        "value": "Various packaging products including a bicycle, flowers, and food items"
       },
       {
         "component": "richtext",
         "name": "text",
-        "value": "",
+        "value": "Meeting our customers' sustainable packaging needs with a diverse product portfolio",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "subheading",
+        "label": "Subheading",
+        "value": "OUR PRODUCTS"
       }
     ]
   }
