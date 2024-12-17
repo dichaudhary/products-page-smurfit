@@ -203,18 +203,18 @@
         "value": "Various packaging products including a bicycle, flowers, and food items"
       },
       {
-        "component": "richtext",
-        "name": "text",
-        "value": "Meeting our customers' sustainable packaging needs with a diverse product portfolio",
-        "label": "Text",
-        "valueType": "string"
-      },
-      {
         "component": "text",
         "valueType": "string",
         "name": "subheading",
         "label": "Subheading",
         "value": "OUR PRODUCTS"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "Meeting our customers' sustainable packaging needs with a diverse product portfolio",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }
