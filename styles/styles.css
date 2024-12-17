@@ -232,6 +232,75 @@ main > .section {
   margin: 40px 0;
 }
 
+.columns-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.columns > div {
+  flex: 1;
+}
+
+.columns h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.columns p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.columns ul li {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.columns ul li::before {
+  content: '❯';
+  color: #0072ce;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0072ce;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
 main > .section > div {
   max-width: 1200px;
   margin: auto;
