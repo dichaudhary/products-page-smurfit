@@ -6,7 +6,6 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --hero-background-color: #0033a0; /* New color for hero section background */
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -219,20 +218,6 @@ main img {
 /* sections */
 main > .section {
   margin: 40px 0;
-}
-
-.hero-smurfit-container {
-  background-color: var(--hero-background-color);
-  color: white;
-  padding: 40px 0;
-}
-
-.hero-smurfit-container h1 {
-  color: white;
-}
-
-.hero-smurfit-container p {
-  color: white;
 }
 
 .columns-wrapper {
